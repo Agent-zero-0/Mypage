@@ -1,0 +1,45 @@
+*{
+    background-color:  rgb(135, 206, 235);
+    font-size: small;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(135, 206, 235);
+}
+
+.topnav a {
+    float: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #0f5bff;
+    color: rgb(255, 253, 253);
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+div{
+    text-align: center;
+}
+.k{
+    width: 300px ;
+    height: 200px;
+}
+.k:hover{
+    transform: scale(2);
+}
+.k:focus{
+    transform: scale(4);
+}
+p{
+    color:rgb(17, 87, 0);
+    font-size: large;
+}
+

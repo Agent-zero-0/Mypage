@@ -1,0 +1,48 @@
+*{
+    background-color:  rgb(135, 206, 235);
+    font-size: small;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(135, 206, 235);
+}
+
+.topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ .topnav a:hover {
+    background-color: #5005ff;
+     color: rgb(255, 254, 254);
+ }
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+ }
+*{
+    font-size: x-large;
+    color: #537dd6;
+    font-style: italic;
+}
+#r{
+    text-align: center;
+}
+#f{
+    text-align: right;
+}
+#h{
+    text-align: center;
+}
+.text {
+    color: black
+
+}
+div{
+    text-align: center;
+}

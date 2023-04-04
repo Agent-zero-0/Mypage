@@ -1,0 +1,70 @@
+
+<html>
+  <head>
+    <title>Mypage</title>
+    <link rel="stylesheet" href="certificate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      alert("you are now in the certificate section")
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          nav:true,
+          responsive:{
+            0:{
+              items:1
+            },
+            600:{
+              items:2
+            },
+            1000:{
+              items:2
+            }
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+        <div class="topnav">
+            <a id="j" href="home.html">home</a>
+            <a id="j" href="certificate.html">certificates</a>
+            <a id="j" href="contact.html">Contact</a>
+            <a id="j" href="about me.html">About me</a>
+        </div>
+    </nav>
+    <br>
+    <div class="owl-carousel">
+      <div class="item"><img src="c1.jpg" alt="c1"></div>
+      <div class="item"><img src="c21.png" alt="t1"></div>
+      <div class="item"><img src="c3.jpg" alt="t2"></div>
+    </div>    
+    <br>
+    <div><i><p>use this caroussel to see all of the certificates</p></i></div>
+    <br>
+    <div><img class="k" src="c1.jpg" alt="c1"></div>
+    <br>
+    <div><i><p>i have acquired this certificate in a scratch competition organized by the STEM foundation unfortunly i didn't win</p></i></div>
+    <br>
+    <div><img class="k" src="c21.png" alt="t1"></div>
+    <br>
+    <div>
+      <p>
+        this certificate of achievement is a proof that i am capable to code with adruino C (level1) 
+      </p>
+    </div>
+    <br>
+    <div><img class="k" src="c3.jpg" alt="c3"></div>
+    <br>
+    <div>
+      <p>
+        i have acquired this certificate in a robotic competition organized by ISGI unfortunly i didn't win
+     </p>
+    </div>
+  </body>
+</html>
